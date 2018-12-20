@@ -1,0 +1,115 @@
+{
+	"aules" : [
+		{
+			"edifici": "A6",
+			"codi" : "E1",
+            "capacitat": 20
+		},
+		{
+			"edifici": "A6",
+			"codi" : "E2",
+            "capacitat": 10
+		}
+	],
+"assignatures" : [
+	{
+					"name" : "Projectes Programacio",
+					"acronim" : "prop",
+					"quatri": "18"
+	}
+],
+"classes" : [
+	{
+		"code" : "prop-T-10",
+		"type" : "T",
+		"length" : 2,
+		"group" : 10,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-11",
+		"type" : "L",
+		"length" : 2,
+		"group" : 11,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-12",
+		"type" : "L",
+		"length" : 2,
+		"group" : 12,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-13",
+		"type" : "T",
+		"length" : 2,
+		"group" : 13,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-14",
+		"type" : "T",
+		"length" : 2,
+		"group" : 13,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+    {
+		"code" : "prop-L-15",
+		"type" : "T",
+		"length" : 2,
+		"group" : 13,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-16",
+		"type" : "T",
+		"length" : 2,
+		"group" : 13,
+        "capacitat": 10,
+        "startH": 8,
+        "endH": 9
+	},
+	{
+		"code" : "prop-L-17",
+		"type" : "T",
+		"length" : 2,
+		"group" : 13,
+        "capacitat": 20,
+        "startH": 8,
+        "endH": 9
+	}
+],
+"restrictions" : [
+	{
+		"type" : 1,
+		"varin" : ["prop-T-10"],
+		"varout" : ["prop-L-11"],
+		"editable" : false
+	},
+	{
+		"type" : 2,
+		"varin" : ["prop-T-10", "prop-L-11", "prop-L-12", "prop-L-13", "prop-L-14", "prop-L-15", "prop-L-16", "prop-L-17"],
+		"varout" : ["prop-L-11", "prop-L-12", "prop-L-13", "prop-L-14", "prop-L-15", "prop-L-16"],
+		"editable" : false
+	},
+	{
+		"type" : 3,
+		"varin" : ["_-T-*"],
+		"varout" : ["_-L-*"],
+		"editable" : false
+	}
+]
+}

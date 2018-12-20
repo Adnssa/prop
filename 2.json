@@ -1,0 +1,79 @@
+{
+    "aules" : [
+        {
+            "edifici": "A6",
+            "codi" : "E1",
+            "capacitat": 20,
+            "tipus": "T"
+        },
+        {
+            "edifici": "A6",
+            "codi" : "E2",
+            "capacitat": 20,
+            "tipus": "L"
+        }
+    ],
+    "assignatures" : [
+        {
+            "name" : "Projectes Programacio",
+            "acronim" : "prop",
+            "quatri": "1",
+            "correquisits": []
+        },
+        {
+            "name" : "Paralelisme",
+            "acronim" : "par",
+            "quatri": "1",
+            "correquisits": []
+        }
+    ],
+    "classes" : [
+        {
+            "code" : "prop-T-10",
+            "type" : "T",
+            "length" : 2,
+            "group" : 10,
+            "capacitat": 10,
+            "startH": 8,
+            "endH": 9
+        },
+        {
+            "code" : "prop-L-11",
+            "type" : "L",
+            "length" : 2,
+            "group" : 11,
+            "capacitat": 10,
+            "startH": 8,
+            "endH": 9
+        },
+        {
+            "code" : "prop-L-12",
+            "type" : "L",
+            "length" : 2,
+            "group" : 12,
+            "capacitat": 10,
+            "startH": 8,
+            "endH": 9
+        },
+        {
+            "code" : "par-T-10",
+            "type" : "T",
+            "length" : 2,
+            "group" : 10,
+            "capacitat": 10,
+            "startH": 8,
+            "endH": 9
+        },
+        {
+            "code" : "par-L-11",
+            "type" : "L",
+            "length" : 2,
+            "group" : 11,
+            "capacitat": 10,
+            "startH": 8,
+            "endH": 9
+        }
+    ],
+    "restrictions" : [
+    ]
+}
